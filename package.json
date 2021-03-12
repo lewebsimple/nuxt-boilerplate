@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-boilerplate",
+  "description": "Nuxt.js application boilerplate",
+  "version": "0.1.0",
+  "author": "Pascal Martineau <pascal@lewebsimple.ca>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build -m",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.ts,.vue --fix --ignore-path .gitignore .",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.22.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@lewebsimple/eslint-config": "^0.2.0",
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/tailwindcss": "^3.4.3",
+    "eslint": "^7.21.0",
+    "typescript": "^4.2.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@lewebsimple/eslint-config",
+      "@lewebsimple/eslint-config/vue2"
+    ]
+  }
+}
