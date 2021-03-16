@@ -22,7 +22,7 @@
     "@lewebsimple/eslint-config": "^0.2.1",
     "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/tailwindcss": "^4.0.0",
+    "@nuxtjs/tailwindcss": "^4.0.1",
     "eslint": "^7.22.0",
     "fibers": "^5.0.0",
     "sass": "^1.32.8",
