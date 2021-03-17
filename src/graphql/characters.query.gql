@@ -1,0 +1,9 @@
+{
+	characters {
+    results {
+      id
+      name
+      image
+    }
+  }
+}

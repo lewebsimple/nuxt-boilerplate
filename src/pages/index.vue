@@ -2,6 +2,7 @@
   <div id="home">
     <h1>Nuxt.js boilerplate</h1>
     <Hello />
+    <Characters />
   </div>
 </template>
 
