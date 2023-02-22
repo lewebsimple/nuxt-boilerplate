@@ -8,6 +8,9 @@
     "preview": "nuxt preview",
     "prepare": "husky install && nuxt prepare"
   },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.4.1"
+  },
   "devDependencies": {
     "@lewebsimple/eslint-config": "^0.7.7",
     "@lewebsimple/stylelint-config": "^0.7.7",
@@ -33,7 +36,8 @@
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "postcss"
+        "postcss",
+        "webpack"
       ]
     }
   }
