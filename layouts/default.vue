@@ -2,10 +2,15 @@
 
 <template>
   <div class="min-h-screen flex flex-col">
-    <header />
+    <NuxtLoadingIndicator />
+    <header>
+      <TheSiteHeader />
+    </header>
     <main class="flex-grow">
       <slot />
     </main>
-    <footer />
+    <footer>
+      <TheSiteFooter />
+    </footer>
   </div>
 </template>
