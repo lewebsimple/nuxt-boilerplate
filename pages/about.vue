@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="home">
-    <SectionPageHeader title="Welcome!" />
+  <div id="about">
+    <SectionPageHeader title="About us" />
   </div>
 </template>
