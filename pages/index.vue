@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeo({ title: "Home" });
+</script>
 
 <template>
   <div id="home">
