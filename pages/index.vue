@@ -1,5 +1,7 @@
 <script setup lang="ts">
+// SEO
 useSeoMeta({ title: "Home" });
+useSchemaOrg([defineWebPage()]);
 </script>
 
 <template>

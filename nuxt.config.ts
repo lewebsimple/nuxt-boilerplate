@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    head: { htmlAttrs: { lang: "fr-CA" } },
+    head: { htmlAttrs: { lang: "en-US" } },
   },
   components: [
     { path: "~/components", pathPrefix: false },
@@ -23,9 +23,10 @@ export default defineNuxtConfig({
     public: {
       siteName: "Nuxt boilerplate",
       siteDescription: "Welcome to Nuxt boilerplate",
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "http://localhost:3000",
+      siteUrl: "http://localhost:3000",
     },
   },
+  schemaOrg: { inLanguage: "en-US" },
   tailwindcss: { viewer: false },
   typescript: { typeCheck: "build" },
 });
