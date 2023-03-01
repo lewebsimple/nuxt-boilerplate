@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",
+    "@vueuse/nuxt": "^9.13.0",
     "nuxt-schema-org": "^2.1.2",
     "nuxt-simple-robots": "^1.0.2",
     "nuxt-simple-sitemap": "^1.0.7",

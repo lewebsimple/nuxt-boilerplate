@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   ],
   modules: [
     "@nuxtjs/tailwindcss",
+    "@vueuse/nuxt",
     "nuxt-unhead",
     "nuxt-schema-org",
     "nuxt-simple-robots",
