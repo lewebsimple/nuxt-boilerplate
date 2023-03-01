@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     { path: "~/components", pathPrefix: false },
     { path: "~/assets/svg", extensions: ["svg"], prefix: "svg" },
   ],
-  modules: ["@nuxtjs/tailwindcss", "nuxt-unhead", "nuxt-svgo"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-unhead", "nuxt-simple-robots", "nuxt-svgo"],
   runtimeConfig: {
     public: {
       siteName: "Nuxt boilerplate",
