@@ -7,7 +7,14 @@ export default defineNuxtConfig({
     { path: "~/components", pathPrefix: false },
     { path: "~/assets/svg", extensions: ["svg"], prefix: "svg" },
   ],
-  modules: ["@nuxtjs/tailwindcss", "nuxt-unhead", "nuxt-simple-robots", "nuxt-simple-sitemap", "nuxt-svgo"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "nuxt-unhead",
+    "nuxt-schema-org",
+    "nuxt-simple-robots",
+    "nuxt-simple-sitemap",
+    "nuxt-svgo",
+  ],
   nitro: {
     prerender: { crawlLinks: true, routes: ["/"] },
   },
