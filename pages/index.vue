@@ -4,6 +4,6 @@ useSeoMeta({ title: "Home" });
 
 <template>
   <div id="home">
-    <SectionPageHeader title="Welcome!" />
+    <ThePageHeader title="Welcome!" />
   </div>
 </template>
