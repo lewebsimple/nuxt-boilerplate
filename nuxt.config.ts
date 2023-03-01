@@ -7,11 +7,15 @@ export default defineNuxtConfig({
     { path: "~/components", pathPrefix: false },
     { path: "~/assets/svg", extensions: ["svg"], prefix: "svg" },
   ],
-  modules: ["@nuxtjs/tailwindcss", "nuxt-unhead", "nuxt-simple-robots", "nuxt-svgo"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-unhead", "nuxt-simple-robots", "nuxt-simple-sitemap", "nuxt-svgo"],
+  nitro: {
+    prerender: { crawlLinks: true, routes: ["/"] },
+  },
   runtimeConfig: {
     public: {
       siteName: "Nuxt boilerplate",
       siteDescription: "Welcome to Nuxt boilerplate",
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "http://localhost:3000",
     },
   },
   tailwindcss: { viewer: false },
