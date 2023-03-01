@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     { path: "~/assets/svg", extensions: ["svg"], prefix: "svg" },
   ],
   modules: [
+    "@nuxt/image-edge",
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
     "nuxt-unhead",
