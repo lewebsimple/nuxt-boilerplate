@@ -11,6 +11,9 @@
   "dependencies": {
     "@nuxt/image-edge": "1.0.0-27954023.4cee565",
     "@nuxtjs/tailwindcss": "^6.4.1",
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
     "@vueuse/nuxt": "^9.13.0",
     "nuxt-schema-org": "^2.1.2",
     "nuxt-simple-robots": "^1.0.2",
@@ -45,6 +48,7 @@
       "ignoreMissing": [
         "@unhead/vue",
         "postcss",
+        "tailwindcss",
         "vue",
         "webpack"
       ]
