@@ -9,27 +9,26 @@
     "prepare": "husky install && nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/image-edge": "1.0.0-28008586.381b906",
-    "@nuxtjs/tailwindcss": "^6.6.5",
-    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "@nuxt/image-edge": "1.0.0-28020728.5df24eb",
+    "@nuxtjs/tailwindcss": "^6.6.6",
     "@tailwindcss/forms": "^0.5.3",
     "@vueuse/nuxt": "^9.13.0",
     "nuxt-schema-org": "^2.1.2",
     "nuxt-simple-robots": "^2.1.1",
-    "nuxt-simple-sitemap": "^2.4.3",
-    "nuxt-svgo": "^1.1.0",
+    "nuxt-simple-sitemap": "^2.4.11",
+    "nuxt-svgo": "^1.2.1",
     "nuxt-unhead": "^1.4.15"
   },
   "devDependencies": {
     "@lewebsimple/eslint-config": "^0.7.7",
     "@lewebsimple/stylelint-config": "^0.7.7",
     "@types/node": "^18.15.11",
-    "eslint": "^8.37.0",
+    "eslint": "^8.38.0",
     "husky": "^8.0.3",
     "nano-staged": "^0.8.0",
-    "nuxt": "3.3.3",
+    "nuxt": "3.4.1",
     "stylelint": "^15.4.0",
-    "typescript": "^5.0.3",
+    "typescript": "^5.0.4",
     "vue-tsc": "^1.2.0"
   },
   "eslintConfig": {
