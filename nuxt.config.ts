@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
-    "nuxt-unhead",
     "nuxt-schema-org",
     "nuxt-simple-robots",
     "nuxt-simple-sitemap",
