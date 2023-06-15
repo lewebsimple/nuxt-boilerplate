@@ -8,18 +8,14 @@ export default defineNuxtConfig({
     { path: "~/assets/svg", extensions: ["svg"], prefix: "svg" },
   ],
   modules: [
-    "@nuxt/image-edge",
+    "@lewebsimple/nuxt3-svg",
+    "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
-    "nuxt-unhead",
     "nuxt-schema-org",
     "nuxt-simple-robots",
     "nuxt-simple-sitemap",
-    "nuxt-svgo",
   ],
-  nitro: {
-    prerender: { crawlLinks: true, routes: ["/"] },
-  },
   runtimeConfig: {
     public: {
       siteName: "Nuxt boilerplate",

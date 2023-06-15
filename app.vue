@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// @see
 useSchemaOrg([
   defineOrganization({
     name: "Websimple",
