@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: { htmlAttrs: { lang: "en-US" } },
   },
+  build: { transpile: [] },
   components: [
     { path: "~/components", pathPrefix: false },
     { path: "~/assets/svg", extensions: ["svg"], prefix: "svg" },
